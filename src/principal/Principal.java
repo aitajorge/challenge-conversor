@@ -1,5 +1,6 @@
 package principal;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Principal {
@@ -23,7 +24,14 @@ public class Principal {
 
                 System.out.println("\nElija una opción válida: ");
                 System.out.println("*********************************************************");
-                int opcion = scanner.nextInt();
+                int opcion;
+                try{
+                    opcion = scanner.nextInt();
+                }catch (InputMismatchException e){
+                    System.out.println("Error: Debe ingresar un número entero.");
+                    scanner.nextLine();
+                    continue;
+                }
 
                 if (opcion == 7) {
                     System.out.println("¡Hasta luego!");
