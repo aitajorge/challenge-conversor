@@ -3,7 +3,12 @@
 
 *Este proyecto contiene un programa de conversión de moneda, escrito en Java.*
 
-Utiliza la API de ExchangeRate-API.com para obtener tasas de cambio en tiempo real y la biblioteca Gson para analizar la respuesta JSON de la API.
+Utiliza la API de ExchangeRate-API.com para obtener tasas de cambio en tiempo real y la biblioteca Gson para analizar la respuesta JSON de la API: 
+
+// Setting URL
+String url_str = "https://v6.exchangerate-api.com/v6/YOUR-API-KEY/latest/USD";
+YOUR-API-KEY: bd677ae8782ac9e96e1fa928
+
 
 
 <em>USO</em>
