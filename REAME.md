@@ -1,11 +1,12 @@
-**Conversor de Monedas**
+<h1 align="center"> Conversor de Monedas </h1>
+
 
 *Este proyecto contiene un programa de conversión de moneda, escrito en Java.*
 
 Utiliza la API de ExchangeRate-API.com para obtener tasas de cambio en tiempo real y la biblioteca Gson para analizar la respuesta JSON de la API.
 
 
-**USO**
+<em>USO</em>
 
 1. Abre IntelliJ IDEA.
 2. Haz clic en 'File' en la barra de menú.
@@ -16,7 +17,7 @@ Utiliza la API de ExchangeRate-API.com para obtener tasas de cambio en tiempo re
 7. Ejecuta el programa desde la clase 'Principal.java'.
 
 
-**Créditos**
+<em>Créditos</em>
 Fue desarrollado por *jorge aita* para el **Challenge Conversor de Monedas** de **ALURA Latam**.
 
 
